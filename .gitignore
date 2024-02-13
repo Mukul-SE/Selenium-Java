@@ -1,0 +1,16 @@
+# Maven target directory
+/target/
+
+# Eclipse IDE files
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ IDEA files
+/.idea/
+
+# NetBeans IDE files
+/nbproject/
+
+# Eclipse metadata
+/.metadata/
