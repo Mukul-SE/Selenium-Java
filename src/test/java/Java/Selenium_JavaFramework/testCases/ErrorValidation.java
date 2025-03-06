@@ -13,7 +13,7 @@ public class ErrorValidation extends BaseTest{
 	@Test
 	public void addProductToCart() {
 		landingPage.openApplication(url);
-		landingPage.logIn("mukulsharma@testmail.com", "Qait@12348");
+		landingPage.logIn("mukulsharma@testmail.com", "Qait@1234");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		
 		
